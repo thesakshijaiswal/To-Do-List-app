@@ -4,6 +4,9 @@
     font-family:"Poppins" , "sans-serif";
     box-sizing:border-box;  
 }
+body{
+    overflow: hidden;
+}
 .container{
     width: 100%;
     min-height: 100vh;
@@ -13,7 +16,7 @@
 
 .todo-app{
     width: 100%;
-   min-width: 50%;
+    min-width: 70%;
     background: #111a29;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
