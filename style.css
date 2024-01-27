@@ -12,13 +12,15 @@ body{
     min-height: 100vh;
     background: linear-gradient(135deg,#80ff83,#80d6ff);
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .todo-app{
     width: 100%;
     min-width: 70%;
     background: #111a29;
-    margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius:10px;
 }
@@ -106,13 +108,13 @@ ul li span{
 ul li span:hover{
     background:#bfffff80;
 }
-@media (width>600px){
+@media (max-width:600px){
 .container{
   display:flex;
   justify-content: center;
   align-items: center;
 }
   .todo-app{
-    width: 50%;
+    width: 100%;
   }
 }
