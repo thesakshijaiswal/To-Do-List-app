@@ -1,6 +1,6 @@
 # To-Do-List-app
 ## Live Preview:
-<a href="to-do-list-app-by-wit.vercel.app">![Todo App](src/TodoApp.jpg)</a>
+<a href="./To-Do-List-app/to-do-list-app-by-wit.vercel.app">![Todo App](src/TodoApp.jpg)</a>
 A app that utilizes **localStorage API in JavaScript to maintain ToDo's** and it is made using HTML,CSS And JavaScript 
 
 **Features:**
